@@ -1,4 +1,4 @@
-const prompt = require("prompt-sync")();
+const prompt = require("prompt-sync")()
 let edat = prompt("escriu la teva edat")
 if (edat < 18) {
 console.log ("Ets menor d'edad")
