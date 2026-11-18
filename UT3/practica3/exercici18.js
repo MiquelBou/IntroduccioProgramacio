@@ -11,4 +11,4 @@ if (Edat < 18) {
     console.log("Tens descompte");
 } else {
     console.log("Preu normal");
-}
+}.
