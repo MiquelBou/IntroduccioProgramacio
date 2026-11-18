@@ -1,0 +1,10 @@
+const prompt = require('prompt-sync') ();
+let nomClient = prompt("Client: " );
+let hores = Number(prompt("Hores de ma d'obra: " ));
+let costPeces = prompt("Cost de les peces: " );
+let contracte = prompt("Te contracte de manteniment (si/no): " );
+let servei = prompt("Servei urgent? (si/no) " );
+    console.log(`--- PRESSUPOST ---`);
+    console.log(`Client: ${nomClient}`);
+    console.log(`Ma d'obra (${hores}): ${hores = 35}`);
+    console.log(`Peces: ${costPeces}`);
